@@ -65,3 +65,85 @@ li{
 #about p {
   text-align: justify;
 }
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+#works li{
+  width: 31%;
+  margin-bottom: 23px;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 13px auto;
+  font-size: 0.9rem;
+  padding:0.4%
+}
+.site-title a {
+  display: block;
+}
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
